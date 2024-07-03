@@ -9,13 +9,13 @@ toggle_icon.addEventListener("click",()=>{
     body.classList.toggle("dark-mode")
     if(body.classList.contains("dark-mode"))
         {
-            toggle_icon.src = "img/moon.png";
+            toggle_icon.src = "moon.png";
              home_p.style.color = "black";
              about_p.style.color = "black";
             
         }
         else{
-            toggle_icon.src = "img/sun.png";
+            toggle_icon.src = "sun.png";
             home_p.style.color = "white";
             
            
